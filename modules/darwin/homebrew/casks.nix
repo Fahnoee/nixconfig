@@ -5,6 +5,7 @@
   # homebrew.casks = [ "google-chrome" "rectangle" ];
   homebrew.casks = [
     "raycast"
+    "1password"
     "ghostty"
   ];
 }
