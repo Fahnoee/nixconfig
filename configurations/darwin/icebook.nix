@@ -11,7 +11,6 @@ in
     self.darwinModules.default
   ];
 
-  nixpkgs.config.allowUnfree = true;
 
   nixpkgs.hostPlatform = "aarch64-darwin";
   networking.hostName = "icebook";
