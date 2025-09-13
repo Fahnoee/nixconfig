@@ -29,4 +29,4 @@ jobs:
       - name: om ci
         run: |
           export NIXPKGS_ALLOW_UNFREE=1
-          om ci run --impure --systems x86_64-linux
+          om ci run --systems x86_64-linux -- --impure
