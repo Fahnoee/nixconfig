@@ -7,5 +7,6 @@
     "raycast"
     "1password"
     "ghostty"
+    "google-chrome"
   ];
 }
