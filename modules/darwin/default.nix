@@ -32,6 +32,8 @@
         mru-spaces = false; # don’t reorder spaces
         tilesize = 56;
         minimize-to-application = true;
+        # Group windows by application in Mission Control
+        expose-group-apps = true;
         # customize Hot Corners
         wvous-tl-corner = 2; # top-left - Mission Control
         # wvous-tr-corner = 13; # top-right - Lock Screen
@@ -62,6 +64,12 @@
       trackpad = {
         Clicking = true;            # tap to click
         TrackpadThreeFingerDrag = true;
+      };
+
+      # Mission Control / Spaces
+      spaces = {
+        # "Displays have separate Spaces"
+        spans-displays = true;
       };
     };
 
