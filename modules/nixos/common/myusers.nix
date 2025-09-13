@@ -36,7 +36,8 @@ in
 
     # Enable home-manager for our user
     home-manager.users = mapListToAttrs config.myusers (name: {
-      imports = [ (self + /configurations/home/${name}.nix) ];
+      imports = [ (self + /configurations/home/${name}.nix) ]
+        ++ (lib.optional pkgs.stdenv.isDarwin (self + /modules/home/darwin));
     });
 
     # All users can add Nix caches.

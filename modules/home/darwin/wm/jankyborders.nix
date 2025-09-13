@@ -1,5 +1,6 @@
-{ ... }:
+{ pkgs, ... }:
 {
+
   # Enable window borders on macOS via Home Manager
   services.jankyborders.enable = true;
   # You can tweak defaults later, e.g.:
@@ -9,5 +10,5 @@
   #   inactiveColor = "#585b70";
   #   width = 4;
   # };
-}
 
+}
