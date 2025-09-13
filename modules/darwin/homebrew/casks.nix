@@ -8,5 +8,6 @@
     "1password"
     "ghostty"
     "google-chrome"
+    "aerospace"
   ];
 }
