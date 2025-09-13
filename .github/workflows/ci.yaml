@@ -25,6 +25,8 @@ jobs:
       - name: om show
         run: om show .
 
-      # Run CI builds
+      # Run CI builds (allow unfree + impure mode)
       - name: om ci
-        run: om ci run --systems x86_64-linux
+        run: |
+          export NIXPKGS_ALLOW_UNFREE=1
+          om ci run --impure --systems x86_64-linux
