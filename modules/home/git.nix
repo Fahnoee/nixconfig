@@ -16,7 +16,7 @@
         ci = "commit";
       };
       extraConfig = {
-        # init.defaultBranch = "master";
+        init.defaultBranch = "main";
         # pull.rebase = "false";
         # Git commit signing via SSH + 1Password
         user.signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIIxm8/9H1hOk3oj6xZv2eJWOUL1ABuUeMcuyUYLr/vt";
